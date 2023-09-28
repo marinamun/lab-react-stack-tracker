@@ -16,7 +16,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<HomePage />} send={companies} />
+        <Route path="/" element={<HomePage send={companies} />} />
         <Route path="/company/:companySlug" element={<CompanyPage />} />
         <Route path="/tech/:slug" element={<TechnologyPage />} />
       </Routes>
