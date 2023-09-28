@@ -1,5 +1,5 @@
 function Navbar() {
-  return <nav>Navbar</nav>;
+  return <nav style={{ backgroundColor: "#9efbff" }}>StackTracker</nav>;
 }
 
 export default Navbar;
